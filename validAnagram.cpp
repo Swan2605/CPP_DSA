@@ -24,7 +24,6 @@ int main(){
     Solution sol;
     string s ="anagram";
     string t = "nagaramm";
-
     bool isAnagram = sol.isAnagram(s,t);
     if(isAnagram== true){
         cout<<"It is an anagram"<<endl;

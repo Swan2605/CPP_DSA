@@ -25,8 +25,6 @@ public:
 int main(){
     Solution sol;
     vector<string> stringss ={"eat","tea","tan","ate","nat","bat"};
-    
-
     vector<vector<string>> isGroupAnagram = sol.groupAnagrams(stringss);
     cout << "Grouped Anagrams are: " << endl;
     for (const auto& group : isGroupAnagram) {
