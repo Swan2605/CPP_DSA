@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <climits>
 #include <string>
 using namespace std;
 
@@ -36,9 +35,5 @@ int main(){
     count= sol.countSubstrings(s);
     cout<<"Count of the palindrom in "<<s<<" string is : "<<count;
     cout<<endl;
-
-    
-    
-   
     return 0;
 }
